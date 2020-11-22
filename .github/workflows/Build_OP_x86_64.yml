@@ -12,6 +12,7 @@ on:
     types: [published]
 
   repository_dispatch:
+  workflow_dispatch:
 
   #push:
   #  branches:
