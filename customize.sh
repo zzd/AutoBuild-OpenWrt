@@ -20,3 +20,6 @@ rm -rf ./package/lean/luci-app-netdata
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-netdata openwrt/package/lean/luci-app-netdata
 rm -rf ./feeds/packages/admin/netdata
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/netdata openwrt/feeds/packages/admin/netdata
+rm -rf ./feeds/packages/net/smartdns
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/smartdns ./package/diy/smartdns
+./scripts/feeds update -i
